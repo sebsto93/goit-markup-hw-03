@@ -180,7 +180,7 @@ body {
 
 .stopka {
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .stopka_logo {
@@ -245,7 +245,7 @@ body {
   gap: 40px;
 }
 
-.hide-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -305,6 +305,7 @@ section {
 .secondsec_style {
   display: block;
   padding: 120px 0;
+  margin-bottom: 8px;
 }
 
 .people_list {
@@ -317,11 +318,12 @@ section {
 }
 
 .workername {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .fourthsec_style {
   padding: 120px 0 120px 0;
+  margin-bottom: 8px;
 }
 
 .list_sec_four {
