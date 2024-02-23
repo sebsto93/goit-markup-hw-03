@@ -63,7 +63,7 @@ body {
 .firstsec_style {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .firsthead {
@@ -129,6 +129,9 @@ body {
 
 .listpointthird {
   background-color: #ffffff;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .workersdesc {
@@ -156,6 +159,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio_head {
@@ -171,10 +175,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .stopka {
   background-color: #2e2f42;
+  padding: 120px 0;
 }
 
 .stopka_logo {
@@ -185,6 +191,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .stopka_span {
@@ -195,11 +203,13 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
-header {
+.header_style {
   margin: 24px 156px;
   display: block;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -246,6 +256,7 @@ header {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
 h1,
@@ -298,5 +309,34 @@ section {
 
 .people_list {
   display: flex;
-  gap: 20px;
+  gap: 24px;
+}
+
+.list_points_sec_two {
+  width: calc((100% - 72px) / 4);
+}
+
+.workername {
+  padding: 32px 16px;
+}
+
+.fourthsec_style {
+  padding: 120px 0 120px 0;
+}
+
+.list_sec_four {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list_points_sec_four {
+  width: calc((100% - 48px) / 3);
+}
+
+.aplication {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
